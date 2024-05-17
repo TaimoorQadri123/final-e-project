@@ -1,0 +1,67 @@
+[
+    {
+        "name":"ChillTech",
+        "brand":"Model CT-2000",
+        "info":"- Cutting-edge, eco-friendly cooling.",
+        "image":"./assets/imgs/window-ac2.jpg",
+        "prie":"RS 55000 ",
+        "redirect":""
+    },
+    {
+        "name":"ArcticBreeze",
+        "brand":" Model ABX-500",
+        "info":"- Reliable, affordable comfort.",
+        "image":"./assets/imgs/window-ac2.jpg",
+        "prie":"RS 55000 ",
+        "redirect":""
+    },
+    {
+        "name":"CoolWave",
+        "brand":" Model CW-300",
+        "info":"- Stylish, smart cooling solutions.",
+        "image":"./assets/imgs/window ac 999.jpg",
+        "prie":"RS 35000 ",
+        "redirect":""
+    },
+    {
+        "name":"FrostGuard",
+        "brand":"Model FG-7000",
+        "info":"- Powerful cooling performance.",
+        "image":"./assets/imgs/window ac 177.jpg",
+        "prie":"RS 25000 ",
+        "redirect":""
+    },
+    {
+        "name":"BreezyLife",
+        "brand":" Model BL-1000",
+        "info":"- Fresh, clean air circulation.",
+        "image":"./assets/imgs/window ac 15.jpg",
+        "prie":"RS 15000 ",
+        "redirect":""
+    },
+    {
+        "name":"AirPro",
+        "brand":"Model AP-1500",
+        "info":"- Customizable cooling options.",
+        "image":"./assets/imgs/window-ac6.jpg",
+        "prie":"RS 31000 ",
+        "redirect":""
+    },
+    {
+        "name":"AeroCool",
+        "brand":" Model ACX-800",
+        "info":"- Energy-efficient, eco-friendly.",
+        "image":"./assets/imgs/window ac 11.jpg",
+        "prie":"RS 45000 ",
+        "redirect":""
+    },
+    {
+        "name":"SummitAir",
+        "brand":"Model SA-1200",
+        "info":"- Premium, whisper-quiet comfort.",
+        "image":"./assets/imgs/window ac 888.jpg",
+        "prie":"RS 21000 ",
+        "redirect":""
+    }
+]
+

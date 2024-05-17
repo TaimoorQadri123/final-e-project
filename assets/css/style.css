@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+body{
+    font-family: "barlow",sans-serif;
+    line-height: 1.7;
+    color: #156171;
+}
+html{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+
+}
+.social-links a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500 !important;
+
+}
+body {
+    padding-top: 70px; /* Add padding-top to create space for the fixed header */
+}
+/* navbar section starts */
+.top-nav {
+    background-color: #a78cdf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: #ffffff9e;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+    
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color: #a78cdf; 
+
+}
+
+/* navbar section ends  */
+
+/* * main header starts */ 
+.navbar {
+    position: fixed; /* Fix the header at the top */
+    width: 100%; /* Make the header full width */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header appears above other elements */
+    transition: top 0.3s; /* Add smooth transition effect */
+    background-color: #ffffff; /* Set background color for the header */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032; /* Set text color for the brand */
+}
+
+.navbar-brand span {
+    color: #a78cdf;
+}
+
+.navbar-nav .nav-link {
+    color: #092032; /* Set text color for the links */
+    transition: color 0.3s; /* Add smooth transition effect */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #a78cdf; /* Change link color on hover and when active */
+}
+/* main header ends  */
+
+
+
+
+
+/* slider */
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)), url(../imgs/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+}
+/* innerbanner  */
+/* inner banner  */
+.inner-banner{
+    padding:300px 80px;
+    
+    }
+
+ /* main home fearures  */
+ /* Custom CSS for feature cards */
+.fe-card {
+    border: none; /* Remove default card border */
+    transition: transform 0.3s; /* Add smooth transition effect */
+}
+
+.fe-card:hover {
+    transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+.fe-card-title {
+    font-size: 1.5rem; /* Increase font size for card titles */
+    color: #092032; /* Set card title color */
+}
+
+.fe-card-text {
+    color: #6c757d; /* Set color for card text */
+}
+
+.btn-primary {
+    background-color: #a78cdf; /* Set background color for primary buttons */
+    border-color: #a78cdf; /* Set border color for primary buttons */
+}
+
+.btn-primary:hover {
+    background-color: #7b5fae; /* Darker background color on hover */
+    border-color: #7b5fae; /* Darker border color on hover */
+}
+
+/* fe cards end  */
+/* product area  */
+.slidep{
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.3)), url(../imgs/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    min-height: 300px !important; 
+    
+    
+}
+/* product card css  */
+.cd {
+    width: 18rem;
+    border: none; /* Remove default card border */
+    border-radius: 0; /* Ensure sharp edges for the card */
+    transition: all 0.3s; /* Add smooth transition effect */
+}
+
+.cd-img-container {
+    height: 200px; /* Set the desired height for the image container */
+    overflow: hidden; /* Hide any overflow content */
+    position: relative; /* Set position to relative */
+}
+
+.cd-img-top {
+    width: 100%; /* Ensure the image covers the entire container width */
+    height: auto; /* Allow the image to adjust its height accordingly */
+    position: absolute; /* Set position to absolute */
+    top: 50%; /* Move the image down by half of its height */
+    transform: translateY(-50%); /* Center the image vertically */
+}
+
+.cd-title,
+.cd-text {
+    color: #092032; /* Set default text color */
+}
+
+.cd:hover {
+    background-color: #a78cdf; /* Change background color on hover */
+}
+
+.cd:hover .cd-title,
+.cd:hover .cd-text {
+    color: #fff; /* Change text color to white on hover */
+}
+
+
+
+/* contact  */
+.col-md-7{
+    padding: 50px;
+}
+.col-md-5{
+    padding: 50px;
+}
+.form-control{
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.bi{
+    font-size: 20px;
+}
+.d-flex p{
+    font-size: 15px;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d-flex i{
+    font-size: 20px;
+}
+/* filtration work start */
+.card-title{
+    color: #000;
+    font-family:"barlow",sans-serif ;
+    margin-left: 20px;
+}
+.card-text{
+    margin-left: 20px;
+}
+
+.card-text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.modal-info>#stars-style{
+    list-style-type: none;
+    display: flex;
+    padding: 0;  /* Removes default padding */
+    margin-left: 20px; 
+    margin-top: -20px;
+
+}
+
+
+
+/* footer starts */
+footer {
+    margin-top: 200px;
+   padding-top: 80px;
+   color: #ffffff;
+   text-align: center;
+   background: linear-gradient(rgba(9,32,50,0.8), rgba(9,32,50,0.8)),url(../imgs/top\ selling.jpg);
+}
+footer .navbar-brand {
+    color: #ffffff;
+}
+#footer-links a{
+    text-decoration: none !important;
+    color: white;
+}
+#footer-links a:hover{
+    background-color: #a78cdf;
+}
+.ticker {
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticker-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 20s linear infinite;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* footer end  */
+
+
+/* top selling ac work heare */
+.modal-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-of-model{
+    width: 200px !important;
+    height: 160px !important;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.img-of-model>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.motdal-info{
+    width: 250px;
+    height: 160px;
+    border: 1px solid black;
+}
+#redirect{
+    width: 200px;
+    height: 200px !important;
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Adjust the last value for opacity */
+}
+/* split ac model end  */
+
+#imgcoustamize{
+    width: 250px;
+}
+.fe-card {
+    margin-bottom: 55px; /* Adjust the value as needed */
+}
+.container-fluid{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+ /* newslatter  */
+ #newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+#newsletter p{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #818ea0 !important;
+}
+#newsletter p span{
+    color: #ffbd27;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+ /* newslatter end  */
+/* testimoinals  */
+
+.testimonial-card {
+margin: 20px 0;
+
+}
+.testimonial-text {
+font-style: italic;
+}
+.testimonial-author {
+margin-top: 10px;
+font-weight: bold;
+}
+.testimonial-role {
+color: #555;
+}
+.testimonial-image {
+width: 200px; 
+height: 200px; 
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 10px;
+}
+/* testimonials end  */
+/* counter work start */
+
+.visitor-counter {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.visitor-count {
+    margin-right: 5px; /* Adjust as needed for spacing */
+}
+
+
+
+/* counter work start */
+#price-style-card{
+    margin-left: 24px !important;
+    font-size: 20px;
+}
+#button-style-card{
+    margin-left: 20px;
+}
+ /* filtration-work start */
+ .filtartion-container{
+    width: 100%;
+    height: 45px;
+    /* border: 1px solid black; */
+ }
+ .filtartion-container>.filtration-box{
+    width: 500px;
+    height: 45px;
+    margin: 0 auto;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .filtartion-container>.filtration-box>.fil-button>button{
+    border-radius: 15px;
+    width: 110px;
+    height: 35px;
+    background-color:  #a78cdf ;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+ }
+/* filtration-work end */
+/* detail-page-work-start */
+.main-container-for-detail-page{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+}
+.main-container-for-detail-page>.detail-page{
+    width: 100%;
+    height: 695px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+.detail-box{
+    width: 800px;
+    height: 650px;
+    border: 1px solid black;
+}
+.detail-box>.imd-box-div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.detail-box>.subimages{
+    width: 100%;
+    height: 120px;
+    border: 1px solid green;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail-box>.subimages>.small-image{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+/* detail-page-work-end */
+ /* ADDIDING THE COMMENTS START  */
+
+      .comment-container{
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+      }
+      .comments-box{
+        width: 92%;
+        height: 495px;
+        /* border: 1px solid blue; */
+        margin: 0 auto;
+      }
+      .comment-container>.comments-box>h3{
+        text-transform: capitalize;
+      }
+      #review-button{
+        background-color:  #a78cdf !important;
+        border-radius: 4px !important;
+      }
+      .delete-btn{
+        background-color:  #a78cdf !important;
+        border-radius: 4px !important;
+
+      }
+    
+
+     
+
+/* ADDIDING THE COMMENTS END  */
+
+
+
+
+

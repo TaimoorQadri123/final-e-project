@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <!-- navbar starts  -->
+    <!-- nav top  -->
+    <nav class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>rheem.cooling@yahoo.com</span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>222-999-333</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- top nav end  -->
+    <!-- main header  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">Rheem Cooling <span>.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <form class="d-flex" onsubmit="searchItem(event)">
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              <li class="nav-item ms-lg-5">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Split.html">Split AC</a></li>
+                  <li><a class="dropdown-item active" href="window.html">Window AC</a></li>
+                  <li><a class="dropdown-item" href="Cassette.html">Cassette AC</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQs.html">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- main header ends  -->
+      <!-- navbar ends  -->
+      <!-- main-container-for-detail-page-start -->
+      <div class="main-container-for-detail-page">
+        <div class="detail-page">
+          <div class="detail-box">
+            <div class="imd-box-div">
+              <img id="big-img"src="" alt="" width="100%" height="100%">
+
+            </div>
+            <div class="subimages">
+              <div id="smallimg1" class="small-image"></div>
+              <div id="smallimg2" class="small-image"></div>
+              <div  id="smallimg3"  class="small-image"></div>
+              <div  id="smallimg4"class="small-image"></div>
+
+            </div>
+          </div>
+          <div class="detail-box"></div>
+
+
+        </div>
+
+      </div>
+      <!-- main-container-for-detail-page-end -->
+      <!-- ADDING THE COMMENTS START -->
+      <div class="comment-container">
+        <div class="comments-box">
+          <h3>add your review</h3>
+          <textarea name="instructions" class="center-review" id="instructions" cols="50" rows="5"  placeholder="Add Reviews"></textarea><br>
+           <span id="message"></span>
+           <button id="review-button" type="button" onclick="saveme()">Send review</button>
+           <div class="your-review">
+            <h3>Your Review:</h3>
+        <div class="STYLE" id="userdata"></div>
+           </div>
+        </div>
+      </div>
+       <!-- ADDING THE COMMENTS END -->
+
+       <!-- footer starts -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <a class="navbar-brand" href="#">Rheem Cooling <span>.</span></a>
+                        <p> Aspernatur delectus aliquam veritatis harum dolores,quis aut nihil nemo quas laborum.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="mb-0">Copyright@2024. All rights Reserved</p>
+        </div>
+
+        <div class="visitor-counter">
+            <i id="visitorIcon" class="fa-solid fa-eye" style="color: #f1f4f9;"></i>
+            <span id="visitorCount" class="visitor-count"></span>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Function to increment and display the visitor count
+    function incrementVisitorCount() {
+        // Check if localStorage is supported
+        if (typeof(Storage) !== "undefined") {
+            // Retrieve the current count from localStorage
+            var count = localStorage.getItem("visitorCount");
+            // If count is null (first visit), set it to 1, otherwise increment it
+            count = count ? parseInt(count) + 1 : 1;
+            // Store the updated count back to localStorage
+            localStorage.setItem("visitorCount", count);
+            // Display the count in the designated element
+            document.getElementById("visitorCount").innerText = "Visitor Count: " + count;
+        } else {
+            // If localStorage is not supported, display a message
+            document.getElementById("visitorCount").innerText = "Sorry, your browser does not support localStorage.";
+        }
+    }
+
+    // Call the function to increment and display the visitor count
+    incrementVisitorCount();
+
+    function validateInputs() {
+        let instructionsInput = document.getElementById("instructions").value.trim();
+        
+        if (instructionsInput === "") {
+            alert("Please add a review.");
+            return false;
+        }
+        
+        return true;
+    }
+
+    function saveme() {
+        if (!validateInputs()) {
+            return; 
+        }
+        
+        let instructionsInput = document.getElementById("instructions");
+        let instructions = instructionsInput.value.trim();
+        let creatnote = document.getElementById("message");
+
+        let noteText = "Review: " + instructions;
+
+        var notes = JSON.parse(localStorage.getItem("notes")) || [];
+        notes.push(noteText);
+        localStorage.setItem("notes", JSON.stringify(notes));
+
+        displayNotes();
+
+        instructionsInput.value = "";
+    }
+
+    function deleteNote(index) {
+        let notes = JSON.parse(localStorage.getItem("notes"));
+        notes.splice(index, 1);
+        localStorage.setItem("notes", JSON.stringify(notes));
+        
+        displayNotes();
+    }
+
+    function displayNotes() {
+    let userdata = document.getElementById("userdata");
+    userdata.innerHTML = "";
+    
+    let notes = JSON.parse(localStorage.getItem("notes")) || [];
+    notes.forEach(function(note, index) {
+        let review = document.createElement("div");
+        review.classList.add("review");
+        
+        let reviewText = document.createElement("p");
+        reviewText.textContent = note;
+        
+        let deleteBtn = document.createElement("button");
+        deleteBtn.textContent = "Delete";
+        deleteBtn.classList.add("delete-btn"); // Add the delete-btn class here
+        deleteBtn.onclick = function() {
+            deleteNote(index);
+        };
+        
+        review.appendChild(reviewText);
+        review.appendChild(deleteBtn);
+        
+        userdata.appendChild(review);
+    });
+}
+
+
+    displayNotes();
+</script>
+</body>
+</html>

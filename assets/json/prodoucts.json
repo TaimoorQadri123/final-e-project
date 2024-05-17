@@ -1,0 +1,199 @@
+[
+    {
+        "name":"ChillTech",
+        "brand":"Model CT-2000",
+        "info":"- Cutting-edge, eco-friendly cooling.",
+        "image":"./assets/imgs/sp111.jpg",
+        "prie":"RS 120000",
+        "redirect":"./dfdf.html"
+    },
+    
+    {
+        "name":"CoolWave",
+        "brand":" Model CW-300",
+        "info":"- Stylish, smart cooling solutions.",
+        "image":"./assets/imgs/sp1.webp",
+        "prie":"RS 450000",
+        "redirect":"./dfdf.html"
+    },
+    {
+        "name":"FrostGuard",
+        "brand":"Model FG-7000",
+        "info":"- Powerful cooling performance.",
+        "image":"./assets/imgs/sp111.jpg",
+        "prie":"RS 20000",
+        "redirect":""
+    },
+    {
+        "name":"BreezyLife",
+        "brand":" Model BL-1000",
+        "info":"- Fresh, clean air circulation.",
+        "image":"./assets/imgs/sp222.webp",
+        "prie":"RS 65000",
+        "redirect":""
+    },
+    {
+        "name":"AirPro",
+        "brand":"Model AP-1500",
+        "info":"- Customizable cooling options.",
+        "image":"./assets/imgs/sp444.webp",
+        "prie":"RS 90000",
+        "redirect":""
+    },
+    {
+        "name":"AeroCool",
+        "brand":" Model ACX-800",
+        "info":"- Energy-efficient, eco-friendly.",
+        "image":"./assets/imgs/sp555.webp",
+        "prie":"RS 120000",
+        "redirect":""
+    },
+    {
+        "name":"SummitAir",
+        "brand":"Model SA-1200",
+        "info":"- Premium, whisper-quiet comfort.",
+        "image":"./assets/imgs/sp666.jpg",
+        "prie":"RS 544000",
+        "redirect":""
+    },
+    {
+        "name":"PolarBreeze",
+        "brand":" Model PB-3000",
+        "info":"- Perfect for  summers.",
+        "image":"./assets/imgs/sp777.webp",
+        "prie":"RS 320000",
+        "redirect":""
+    },
+    {
+        "name":"ChillTech",
+        "brand":"Model CT-2000",
+        "info":"- Cutting-edge, eco-friendly cooling.",
+        "image":"./assets/imgs/window-ac2.jpg",
+        "prie":"RS 55000 ",
+        "redirect":""
+    },
+    {
+        "name":"ArcticBreeze",
+        "brand":" Model ABX-500",
+        "info":"- Reliable, affordable comfort.",
+        "image":"./assets/imgs/window-ac2.jpg",
+        "prie":"RS 55000 ",
+        "redirect":""
+    },
+    {
+        "name":"CoolWave",
+        "brand":" Model CW-300",
+        "info":"- Stylish, smart cooling solutions.",
+        "image":"./assets/imgs/window ac 999.jpg",
+        "prie":"RS 35000 ",
+        "redirect":""
+    },
+    {
+        "name":"FrostGuard",
+        "brand":"Model FG-7000",
+        "info":"- Powerful cooling performance.",
+        "image":"./assets/imgs/window ac 177.jpg",
+        "prie":"RS 25000 ",
+        "redirect":""
+    },
+    {
+        "name":"BreezyLife",
+        "brand":" Model BL-1000",
+        "info":"- Fresh, clean air circulation.",
+        "image":"./assets/imgs/window ac 15.jpg",
+        "prie":"RS 15000 ",
+        "redirect":""
+    },
+    {
+        "name":"AirPro",
+        "brand":"Model AP-1500",
+        "info":"- Customizable cooling options.",
+        "image":"./assets/imgs/window-ac6.jpg",
+        "prie":"RS 31000 ",
+        "redirect":""
+    },
+    {
+        "name":"AeroCool",
+        "brand":" Model ACX-800",
+        "info":"- Energy-efficient, eco-friendly.",
+        "image":"./assets/imgs/window ac 11.jpg",
+        "prie":"RS 45000 ",
+        "redirect":""
+    },
+    {
+        "name":"SummitAir",
+        "brand":"Model SA-1200",
+        "info":"- Premium, whisper-quiet comfort.",
+        "image":"./assets/imgs/window ac 888.jpg",
+        "prie":"RS 21000 ",
+        "redirect":""
+    },
+    {
+        "name": "Mitsubishi Electric MSZ-EF",
+        "model": "Model CT-2000",
+        "info": "-  Stylish design, energy-efficient operation",
+        "image": "./assets/imgs/c11.jpg",
+         "price":"RS:50000",
+        "redirect": ""
+    },
+    {
+        "name": "Daikin FTKP Series",
+        "model": "Model CW-300",
+        "info": "- Advanced features for superior comfort and air quality.",
+        "image": " ./assets/imgs/c15555.jpg",
+        "price":"RS:75000",
+        "redirect": ""
+    },
+    {
+        "name": "LG Artcool Dual Inverter",
+        "model": "Model FG-7000",
+        "info": "- Sleek aesthetics with powerful cooling performance.",
+        "image": "./assets/imgs/c3.webp",
+        "price":"RS:25000",
+        "redirect": ""
+    },
+    {
+        "name": "Panasonic ",
+        "model": "Model BL-1000",
+        "info": "- Reliable and durable cassette unit with optimal airflow distribution.",
+        "image": "./assets/imgs/c4.jpg",
+        "price":"RS:40000",
+        "redirect": ""
+    },
+    {
+        "name": "Fujitsu General ",
+        "model": "Model AP-1500",
+        "info": "- High-efficiency operation and customizable airflow.",
+        "image": "./assets/imgs/c5.webp",
+        "price":"RS:70000",
+        "redirect": ""
+    },
+    {
+        "name": "Samsung DVM S Eco",
+        "model": "Model ACX-800",
+        "info": "- Smart technology for energy savings and  temperature control.",
+        "image": "./assets/imgs/c6.jpg",
+        "price":"RS:27000",
+        "redirect": ""
+    },
+    {
+        "name": "Carrier 42QHC",
+        "model": "Model SA-1200",
+        "info": "- Quiet operation and innovative design for seamless integration.",
+        "image": "./assets/imgs/c20.jpg",
+        "price":"RS:80000",
+        
+        "redirect": ""
+    },
+    {
+        "name": "Gree U-Match ",
+        "model": "Model PB-3000",
+        "info": "- Flexible installation options and user-friendly controls.",
+        "image": "./assets/imgs/c8.webp",
+        "price":"RS:15000",
+        
+        "redirect": ""
+    }
+    
+
+]

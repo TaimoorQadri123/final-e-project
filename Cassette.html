@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fontawesomo link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+</head>
+<body>
+    <!-- navbar starts  -->
+    <!-- nav top  -->
+    <nav class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between" >
+                <div class="col-auto">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>rheem.cooling@yahoo.com</span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>222-999-333</span>
+                    </p>
+                    
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- top nav end  -->
+    <!-- main header  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">Rheem Cooling <span>.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+                <form class="d-flex">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              <li class="nav-item ms-lg-5">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Split.html">Split AC</a></li>
+                  <li><a class="dropdown-item " href="window.html">Window AC</a></li>
+                  <li><a class="dropdown-item active" href="Cassette.html">Cassette AC </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="all-products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQs.html">FAQs</a>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- main header ends  -->
+      <!-- navbar ends  -->
+
+<!-- banner -->
+<div class="slider-wrapper-p">
+
+    <div class="slidep min-vh-100 " id="product-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- banner end  -->
+
+
+    <!-- Cards Section -->
+    <h2 class="text-center pt-5">Cassette AC</h2>
+    <div class="container-for-topselling">
+     
+        <div class="container-fluid" id="webshortcut">
+            <div class="row" id="cardRow">
+                <!-- Cards will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap work here start -->
+
+<div id="showmodal">
+    <ul>
+        <li></li>
+    </ul>
+
+</div>
+    
+
+
+     <!-- bootstrap work here end -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <a class="navbar-brand" href="#">Rheem Cooling <span>.</span></a>
+                        <p> Aspernatur delectus aliquam veritatis harum dolores,quis aut nihil nemo quas laborum.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="mb-0">Copyright@2024. All rights Reserved</p>
+        </div>
+        <div class="visitor-counter">
+            <i id="visitorIcon" class="fa-solid fa-eye" style="color: #f1f4f9;"></i>
+            <span id="visitorCount" class="visitor-count"></sanp>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JSON data for the cards -->
+    <script>
+   $(document).ready(function() {
+    $.ajax({
+        url: "./assets/json/cassette.json",
+        type: "get",
+        success: function(objectdata) {
+            let x = "";
+            let modal = ""; // Define modal variable
+            $.each(objectdata, function(index, indexObject) {
+                x += `
+                    <div class="col-md-3 mb-3">
+                        <div class="fe-card">
+                            <img    id="imgcoustamize" src="${indexObject.image}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">${indexObject.name}</h5>
+                                <p class="card-text">${indexObject.info}</p>
+                                <h4 class="card-text" id="price-style-card">${indexObject.price}</h4>
+                                <button  id="button-style-card"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${index}">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                // Generate modal for each product
+                modal += `
+                    <div class="modal fade" id="exampleModal${index}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="img-of-model">
+                                        <img src="${indexObject.image}" alt="">
+                                    </div>
+                                    <div class="modal-info">
+                                        <h5 class="card-title">${indexObject.name}</h5>
+                                        <p class="card-text">${indexObject.info}</p>
+                                        
+                                            
+                                        <ul id="stars-style">
+                                            <li><i class="fa-solid fa-star" style="color: #B197FC;"></i></li>
+                                            <li><i class="fa-solid fa-star" style="color: #B197FC;"></i></li>
+                                            <li><i class="fa-solid fa-star" style="color: #B197FC;"></i></li>
+                                            <li><i class="fa-solid fa-star" style="color: #B197FC;"></i></li>
+                                        </ul>
+                                        <h4 class="card-text">${indexObject.price}</h4>
+
+                                        
+                                      
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            $("#cardRow").html(x); // Print data in the card
+            $("#showmodal").html(modal); // Print modal
+        }
+    });
+});
+    
+
+
+      // Search item function
+function searchItem() {
+    let search = document.querySelector("#searchInput").value.toLowerCase();
+    let y = "";
+    $.ajax({
+        url: "./assets/json/cassette.json",
+        type: "get",
+        success: function(objectdata){
+            for (let i = 0; i < objectdata.length; i++) {
+                // Check if the product name contains the search query
+                if (objectdata[i].name.toLowerCase().includes(search)) {
+                    y += `
+                        <div class="col-md-3 mb-3">
+                            <div class="fe-card">
+                                <img src="${objectdata[i].image}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">${objectdata[i].name}</h5>
+                                    <p class="card-text">${objectdata[i].info}</p>
+                                    <a href="${objectdata[i].redirect}" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+            $("#cardRow").html(y);
+        }
+    });
+}
+
+ // Function to increment and display the visitor count
+ function incrementVisitorCount() {
+    // Check if localStorage is supported
+    if (typeof(Storage) !== "undefined") {
+        // Retrieve the current count from localStorage
+        var count = localStorage.getItem("visitorCount");
+        // If count is null (first visit), set it to 1, otherwise increment it
+        count = count ? parseInt(count) + 1 : 1;
+        // Store the updated count back to localStorage
+        localStorage.setItem("visitorCount", count);
+        // Display the count in the designated element
+        document.getElementById("visitorCount").innerText = "Visitor Count: " + count;
+    } else {
+        // If localStorage is not supported, display a message
+        document.getElementById("visitorCount").innerText = "Sorry, your browser does not support localStorage.";
+    }
+}
+
+// Call the function to increment and display the visitor count
+incrementVisitorCount();
+
+
+    </script>
+</body>
+</html>
